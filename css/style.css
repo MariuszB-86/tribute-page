@@ -5,25 +5,22 @@
 }
 
 body{
-    
     width: 100vw;
 }
 
-#main{
-   
-}
-
 #title{
-    background-color: rgb(210, 2, 34);
-    height: 150px;
-    
+    background-color: rgb(210, 2, 34); 
 }
 
 #title h1{
     color: white;
-    padding: 50px 0 50px;
     text-align: center;
-    margin: 0;
-    font-size: 45px;
-    
+    margin: auto;
+    padding: 100px 0;
+    font-size: 60px; 
+}
+
+#image{
+    display: block;
+    margin: auto;  
 }
