@@ -18,6 +18,7 @@ body{
     margin: auto;
     padding: 100px 0;
     font-size: 60px; 
+    font-family: "Anta", sans-serif;
 }
 
 #img-div{
@@ -36,6 +37,7 @@ body{
     text-align: center;
     padding: 10px 0;
     color: white;
+    font-family: "Anta", sans-serif;
 }
 
 #tribute-info{
@@ -46,6 +48,7 @@ body{
 #tribute-info h2{
     text-align: center;
     font-size: 40px;
+    font-family: "Anta", sans-serif;
 }
 
 #tribute-info ul li{
@@ -59,6 +62,7 @@ body{
     list-style: none;
     margin-top: 15px;
     border-radius: 10px;
+    font-family: "Roboto Condensed", sans-serif;
 }
 
 #tribute-info ul li div{
