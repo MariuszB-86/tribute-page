@@ -6,6 +6,7 @@
 
 body{
     width: 100vw;
+    
 }
 
 #title{
@@ -43,6 +44,7 @@ body{
 #tribute-info{
     background-color: #BC0000; 
     color: white;
+    padding-bottom: 15px;
 }
 
 #tribute-info h2{
@@ -50,13 +52,14 @@ body{
     font-size: 40px;
     font-family: "Anta", sans-serif;
     padding: 50px 0;
+    margin-bottom: -15px;
 }
 
 #tribute-info ul li{
     font-weight: bold;
     text-align: center;
     font-size: 20px;
-    padding-top: 10px;
+    padding: 10px 0; 
     border: 2px solid white;
     width: 40%;
     margin: 0 auto;
@@ -64,6 +67,15 @@ body{
     margin-top: 15px;
     border-radius: 10px;
     font-family: "Roboto Condensed", sans-serif;
+    animation-duration: 3s;
+    animation-name: slide-in;
+    animation-timing-function: ease-out;
+}
+
+#tribute-info ul li:first-of-type{
+    margin-top: 0;
+    padding-top: 0;
+    border: none;
 }
 
 #tribute-info ul li div{
@@ -74,4 +86,29 @@ body{
 .gold{
     background-color: gold;
     height: 2px;
+}
+
+@keyframes slide-in {
+    from {
+        margin-bottom: 100%;
+    }
+
+    to {
+        margin-bottom: 0%;
+    }
+}
+
+#tribute-link{
+    display: block;
+    text-decoration: none;
+    color: #252525;
+    font-size: 15px;
+    text-align: center;
+    margin: 15px auto 0;
+    padding: 10px 0;
+    font-family: "Roboto Condensed", sans-serif;
+    border: 2px solid #252525;
+    border-radius: 10px;
+    width: 20%;
+    background-color: gold;
 }
