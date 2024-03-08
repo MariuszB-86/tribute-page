@@ -4,11 +4,6 @@
     padding: 0;
 }
 
-body{
-    width: 100vw;
-    
-}
-
 #title{
     background-color: #BC0000; 
 }
@@ -17,7 +12,7 @@ body{
     color: white;
     text-align: center;
     margin: auto;
-    padding: 90px 0;
+    padding: 65px 0;
     font-size: 70px; 
     font-family: "Anta", sans-serif;
 }
@@ -67,9 +62,6 @@ body{
     margin-top: 15px;
     border-radius: 10px;
     font-family: "Roboto Condensed", sans-serif;
-    animation-duration: 3s;
-    animation-name: slide-in;
-    animation-timing-function: ease-out;
 }
 
 #tribute-info ul li:first-of-type{
@@ -86,16 +78,6 @@ body{
 .gold{
     background-color: gold;
     height: 2px;
-}
-
-@keyframes slide-in {
-    from {
-        margin-bottom: 100%;
-    }
-
-    to {
-        margin-bottom: 0%;
-    }
 }
 
 #tribute-link{
